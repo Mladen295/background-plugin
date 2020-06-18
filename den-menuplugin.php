@@ -103,30 +103,3 @@ function mt_settings_page() {
 
 </form>
 </div>
-
-<?php
- 
-}
-// mt_tools_page() displays the page content for the Test Tools submenu
-function mt_tools_page() {
-    echo "<h2>" . __( 'Test Tools', 'menu-test' ) . "</h2>";
-}
-
-// mt_toplevel_page() displays the page content for the custom Test Toplevel menu
-function mt_toplevel_page() {
-    echo "<h2>" . __( 'Test Toplevel', 'menu-test' ) . "</h2>";
-}
-
-// mt_sublevel_page() displays the page content for the first submenu
-// of the custom Test Toplevel menu
-function mt_sublevel_page() {
-    echo "<h2>" . __( 'Test Sublevel', 'menu-test' ) . "</h2>";
-}
-
-// mt_sublevel_page2() displays the page content for the second submenu
-// of the custom Test Toplevel menu
-function mt_sublevel_page2() {
-    echo "<h2>" . __( 'Test Sublevel2', 'menu-test' ) . "</h2>";
-}
-
-?>
